@@ -1,0 +1,27 @@
+{
+  "name": "codecla_cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sonny Stark",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@commander-js/extra-typings": "^12.1.0",
+    "@inquirer/prompts": "^7.1.0",
+    "commander": "^12.1.0",
+    "figlet": "^1.8.0",
+    "inquirer": "^12.3.0",
+    "nodemon": "^3.1.7",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  }
+}
